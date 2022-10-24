@@ -6,6 +6,7 @@ Face-based authentication systems are among the most commonly used biometric sys
 ## Guide for makeup removal code
 
 This project is a part of a bigger project that may cause some code dependencies. After fixing these dependencies, you run the code as follows:
+- First, download the checkpoints and LightCNN from [here](https://drive.google.com/file/d/1VFV39JbACOkl3plqcEwcG5n2YhlwiX9n/view?usp=sharing) and place them inside the main folder.
 -	We train the classifier and the GAN separately. You can find bash scripts regarding each part.
 - The structure of bash scripts is as follows:
 ```
