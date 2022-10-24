@@ -5,6 +5,7 @@ Face-based authentication systems are among the most commonly used biometric sys
 
 ## Guide for makeup removal code
 
+This project is a part of a bigger project that may cause some code dependencies. After fixing these dependencies, you run the code as follows:
 -	We train the classifier and the GAN separately. You can find bash scripts regarding each part.
 - The structure of bash scripts is as follows:
 ```
