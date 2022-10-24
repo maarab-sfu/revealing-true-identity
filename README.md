@@ -28,3 +28,18 @@ python driver.py --input_nc 6 --output_nc 6 --niter 300  --niter_decay 500 --dat
 - To run the matcher, you have to use matlab.
 - Open “run_matcher.m” file. We use “matcher.m” function to match makeup and no-makeup images.
 
+### Inputs
+“dirInputs” is directory to images folder.
+
+“dirMapping” is the address of mapping file which we have provided with other files.
+
+“threshold” is the value for similarity score to decide between attack or bonafide.
+
+### Outputs
+“decisions” is a vector containing the assigned class to each case based on threshold.
+
+“file_names” contains the input images name as "n-after.png".
+
+“scores” the similarity score produced for each pair of image("n-after.png" , "n-before.png").
+
+Attention: These three outputs are aligned to each other. It means that the first score and decision in “scores” and “decisions” vectors are related to the first image name in the first index of “file_names” vector. Same for other indexes.
